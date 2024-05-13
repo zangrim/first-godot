@@ -20,7 +20,7 @@ func show_message(text):
 
 
 func show_game_over():
-	show_message("Game_Over")
+	show_message("Game Over!")
 	# Wait until the MessageTimer has counted down.
 	await $MessageTimer.timeout
 	
